@@ -1,18 +1,5 @@
-
 module std [system] {
-  export std_config
-  // FIXME: The standard does not require that each of these submodules
-  // re-exports its imported modules. We should provide an alternative form of
-  // export that issues a warning if a name from the submodule is used, and
-  // use that to provide a 'strict mode' for libc++.
-
-  // Deprecated C-compatibility headers. These can all be included from within
-  // an 'extern "C"' context.
   module depr [extern_c] {
-    // FIXME: <stdalign.h> is missing.
-    // <signal.h> provided by C library.
-    // <stdarg.h> provided by compiler.
-    // <stdbool.h> provided by compiler.
     module stddef_h {
       // <stddef.h>'s __need_* macros require textual inclusion.
       textual header "stddef.h"
