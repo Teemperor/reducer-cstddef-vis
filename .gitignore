@@ -1,1 +1,4 @@
 pcms
+*.tmp
+*.o
+.DS_Store
