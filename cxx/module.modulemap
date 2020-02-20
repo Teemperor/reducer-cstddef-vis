@@ -1,16 +1,10 @@
-module std [system] {
-  module depr [extern_c] {
-    module stddef_h {
-      textual header "stddef.h"
-    }
-  }
-
-  module cstddef {
-    header "cstddef"
+module TopLevel {
+  module FirstMod {
+    header "first.h"
     export *
   }
-  module cstdlib {
-    header "cstdlib"
+  module SecondMod {
+    header "second.h"
     export *
   }
 }

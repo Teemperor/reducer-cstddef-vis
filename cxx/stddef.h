@@ -1,6 +1,6 @@
 #if !defined(_LIBCPP_STDDEF_H)
 #define _LIBCPP_STDDEF_H
 
-#include_next <stddef.h>
+typedef int size_t;
 
 #endif  // _LIBCPP_STDDEF_H
