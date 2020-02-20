@@ -3,10 +3,4 @@
 
 #include_next <stddef.h>
 
-namespace std {
-
-using ::size_t;
-
-}
-
 #endif  // _LIBCPP_CSTDDEF
