@@ -10,7 +10,6 @@
 #ifndef _LIBCPP_CSTDLIB
 #define _LIBCPP_CSTDLIB
 
-#include <__config>
 #include <stdlib.h>
 
 #endif  // _LIBCPP_CSTDLIB
