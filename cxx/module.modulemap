@@ -4,11 +4,6 @@ module std [system] {
       // <stddef.h>'s __need_* macros require textual inclusion.
       textual header "stddef.h"
     }
-    module stdlib_h {
-      // <stdlib.h>'s __need_* macros require textual inclusion.
-      textual header "stdlib.h"
-      export *
-    }
   }
 
   // C compatibility headers.
