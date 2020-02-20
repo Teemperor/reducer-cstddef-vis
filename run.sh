@@ -1,3 +1,4 @@
+rm *.tmp
 rm -rf pcms
 echo "NORMAL"
 $1 -H -Icxx -nostdinc++  -isysroot "/Users/teemperor/test/reduce/sdk" test.cpp -c
