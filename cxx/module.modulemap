@@ -1,20 +1,16 @@
 module std [system] {
   module depr [extern_c] {
     module stddef_h {
-      // <stddef.h>'s __need_* macros require textual inclusion.
       textual header "stddef.h"
     }
   }
 
-  // C compatibility headers.
-  module compat {
-    module cstddef {
-      header "cstddef"
-      export *
-    }
-    module cstdlib {
-      header "cstdlib"
-      export *
-    }
+  module cstddef {
+    header "cstddef"
+    export *
+  }
+  module cstdlib {
+    header "cstdlib"
+    export *
   }
 }
