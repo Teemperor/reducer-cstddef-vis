@@ -1,6 +1,6 @@
-#ifndef _LIBCPP_CSTDDEF
-#define _LIBCPP_CSTDDEF
+#ifndef FIRST_H
+#define FIRST_H
 
 #include_next <textual.h>
 
-#endif  // _LIBCPP_CSTDDEF
+#endif
